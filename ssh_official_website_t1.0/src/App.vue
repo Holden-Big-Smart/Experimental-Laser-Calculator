@@ -5,6 +5,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
 
 <template>
   <MainLayout>
+    <!-- 1 -->
     <RouterView />
   </MainLayout>
 </template>
