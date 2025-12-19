@@ -1,0 +1,49 @@
+{
+  "name": "ssh_official_website",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "create:api": "node parseapi.js"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "7.0.1",
+    "ant-design-vue": "4.2.1",
+    "axios": "1.6.8",
+    "echarts": "^5.5.0",
+    "file-saver-es": "^2.0.5",
+    "mitt": "3.0.1",
+    "nprogress": "0.2.0",
+    "pinia": "2.1.7",
+    "radash": "12.1.0",
+    "vue": "3.4.27",
+    "vue-echarts": "^6.7.2",
+    "vue-router": "4.3.0",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "1.10.2",
+    "@tailwindcss/aspect-ratio": "0.4.2",
+    "@vitejs/plugin-vue": "5.0.4",
+    "@vue/eslint-config-prettier": "8.0.0",
+    "autoprefixer": "10.4.19",
+    "daisyui": "4.9.0",
+    "eslint": "8.57.0",
+    "eslint-plugin-vue": "9.25.0",
+    "postcss": "8.4.38",
+    "prettier": "3.2.5",
+    "swagger-to-api-v3": "1.0.11",
+    "tailwindcss": "3.4.3",
+    "vite": "5.2.11",
+    "vite-plugin-vue-devtools": "7.1.3"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  }
+}
